@@ -6,9 +6,6 @@ import subprocess
 # Example of command line used 
 # curl -L --max-time 10 www.yahoo.com | grep -oE 'href=\"(\S*)'
 
-INPUT_FILE = "./data/alexa_100k.csv"
-OUTPUT_FILE = "./data/urls.csv"
-
 def getURLS(url_set, page):
   # curl and follow redirect
   command  = "curl -L --max-time 10"
