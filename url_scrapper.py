@@ -1,5 +1,9 @@
 #!/usr/bin/python
 
+# Author: Stephen Sheridan
+# 05/04/2019
+# https://github.com/stephensheridan/
+
 import sys
 import subprocess
 
