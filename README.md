@@ -11,6 +11,9 @@ curl -L --max-time 10 www.yahoo.com | grep -oE 'href=\"(\S*)'
 
 The script uses a Python set to store URL's retrieved from the curl command. This ensures that only unique URL's are stored. Approximately 13,066 URL's are returned from the first 150 entries in the Alexa top 1 million.
 
+# Usage
+python url_scrapper <input_file> <output_file> <num_pages_to_scrape>
+
 # Input file
 The input file must have the following format:
 
