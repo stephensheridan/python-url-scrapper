@@ -16,7 +16,7 @@ python url_scrapper <input_file> <output_file> <num_pages_to_scrape>
 
 # Input file
 The input file must have the following format:
-'''
+
 1,google.com
 2,facebook.com
 3,youtube.com
@@ -28,11 +28,11 @@ The input file must have the following format:
 9,twitter.com
 10,google.co.in
 ...
-'''
+
 
 # Output file
 The output file generated will have the following format:
-'''
+
 0,https://xhamster.com/channels/private-society
 1,https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS
 2,http://food.china.com.cn/2019-04/04/content_74645676.htm
@@ -45,7 +45,7 @@ The output file generated will have the following format:
 9,https://abs.twimg.com/a/1554171232/icons/favicon.svg
 10,https://aws.amazon.com/ru/?nc1=f_ls
 ...
-'''
+
 # Referencing this work and dataset
 Please use the following format when using and referencing this work.
 
